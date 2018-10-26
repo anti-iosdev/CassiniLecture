@@ -17,21 +17,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jGa-zv-EZg">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ib-bf-ZEE">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </imageView>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="414" placeholderIntrinsicHeight="896" translatesAutoresizingMaskIntoConstraints="NO" id="jGa-zv-EZg">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="jGa-zv-EZg" firstAttribute="leading" secondItem="2ib-bf-ZEE" secondAttribute="leading" id="8Tw-rS-C6e"/>
+                                    <constraint firstItem="jGa-zv-EZg" firstAttribute="trailing" secondItem="2ib-bf-ZEE" secondAttribute="trailing" id="P7g-ED-m9F"/>
+                                    <constraint firstItem="jGa-zv-EZg" firstAttribute="top" secondItem="2ib-bf-ZEE" secondAttribute="top" id="S5J-LW-eyb"/>
+                                    <constraint firstAttribute="bottom" secondItem="jGa-zv-EZg" secondAttribute="bottom" id="Xhf-4D-sci"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="jGa-zv-EZg" firstAttribute="trailing" secondItem="d8e-0B-B3E" secondAttribute="trailing" id="6cc-rx-J7Y"/>
-                            <constraint firstAttribute="bottom" secondItem="jGa-zv-EZg" secondAttribute="bottom" id="ANV-vK-nfP"/>
-                            <constraint firstItem="jGa-zv-EZg" firstAttribute="leading" secondItem="d8e-0B-B3E" secondAttribute="leading" id="SVw-ae-Jag"/>
-                            <constraint firstItem="jGa-zv-EZg" firstAttribute="top" secondItem="d8e-0B-B3E" secondAttribute="top" id="t2O-3c-jmc"/>
+                            <constraint firstItem="2ib-bf-ZEE" firstAttribute="trailing" secondItem="d8e-0B-B3E" secondAttribute="trailing" id="2BS-q5-F4e"/>
+                            <constraint firstItem="2ib-bf-ZEE" firstAttribute="top" secondItem="d8e-0B-B3E" secondAttribute="top" id="G9C-Hf-av6"/>
+                            <constraint firstAttribute="bottom" secondItem="2ib-bf-ZEE" secondAttribute="bottom" id="oQM-3t-dnE"/>
+                            <constraint firstItem="2ib-bf-ZEE" firstAttribute="leading" secondItem="d8e-0B-B3E" secondAttribute="leading" id="p15-xk-viJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9fd-Np-CUx"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="jGa-zv-EZg" id="Un1-Y7-bgX"/>
+                        <outlet property="imageView" destination="jGa-zv-EZg" id="6iS-cA-n54"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qsb-1U-1bq" userLabel="First Responder" sceneMemberID="firstResponder"/>

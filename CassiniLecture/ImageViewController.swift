@@ -28,6 +28,7 @@ class ImageViewController: UIViewController
         }
     }
     
+//    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var imageView: UIImageView!
     
     private func fetchImage() {

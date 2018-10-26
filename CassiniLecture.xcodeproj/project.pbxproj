@@ -62,9 +62,9 @@
 			children = (
 				E97511DC218338E900CF3001 /* ImageViewController.swift */,
 				E97511DE2183401000CF3001 /* DemoURLs.swift */,
+				E97511CD2183383B00CF3001 /* Main.storyboard */,
 				E97511E2218341EA00CF3001 /* bowsette.png */,
 				E97511E4218342A800CF3001 /* oval.jpg */,
-				E97511CD2183383B00CF3001 /* Main.storyboard */,
 				E97511DB2183387F00CF3001 /* Supporting Files */,
 				E97511D52183383C00CF3001 /* Info.plist */,
 			);
