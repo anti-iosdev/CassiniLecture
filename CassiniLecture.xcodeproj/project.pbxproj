@@ -15,6 +15,7 @@
 		E97511DF2183401000CF3001 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97511DE2183401000CF3001 /* DemoURLs.swift */; };
 		E97511E3218341EA00CF3001 /* bowsette.png in Resources */ = {isa = PBXBuildFile; fileRef = E97511E2218341EA00CF3001 /* bowsette.png */; };
 		E97511E5218342A900CF3001 /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E97511E4218342A800CF3001 /* oval.jpg */; };
+		E97511E72183502500CF3001 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97511E62183502500CF3001 /* CassiniViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E97511DE2183401000CF3001 /* DemoURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
 		E97511E2218341EA00CF3001 /* bowsette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bowsette.png; path = ../../../Downloads/bowsette.png; sourceTree = "<group>"; };
 		E97511E4218342A800CF3001 /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oval.jpg; sourceTree = "<group>"; };
+		E97511E62183502500CF3001 /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E97511DC218338E900CF3001 /* ImageViewController.swift */,
 				E97511DE2183401000CF3001 /* DemoURLs.swift */,
 				E97511CD2183383B00CF3001 /* Main.storyboard */,
+				E97511E62183502500CF3001 /* CassiniViewController.swift */,
 				E97511E2218341EA00CF3001 /* bowsette.png */,
 				E97511E4218342A800CF3001 /* oval.jpg */,
 				E97511DB2183387F00CF3001 /* Supporting Files */,
@@ -157,6 +160,7 @@
 				E97511DD218338E900CF3001 /* ImageViewController.swift in Sources */,
 				E97511CA2183383B00CF3001 /* AppDelegate.swift in Sources */,
 				E97511DF2183401000CF3001 /* DemoURLs.swift in Sources */,
+				E97511E72183502500CF3001 /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
