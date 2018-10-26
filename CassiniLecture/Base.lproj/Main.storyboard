@@ -19,17 +19,6 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ib-bf-ZEE">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="414" placeholderIntrinsicHeight="896" translatesAutoresizingMaskIntoConstraints="NO" id="jGa-zv-EZg">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="jGa-zv-EZg" firstAttribute="leading" secondItem="2ib-bf-ZEE" secondAttribute="leading" id="8Tw-rS-C6e"/>
-                                    <constraint firstItem="jGa-zv-EZg" firstAttribute="trailing" secondItem="2ib-bf-ZEE" secondAttribute="trailing" id="P7g-ED-m9F"/>
-                                    <constraint firstItem="jGa-zv-EZg" firstAttribute="top" secondItem="2ib-bf-ZEE" secondAttribute="top" id="S5J-LW-eyb"/>
-                                    <constraint firstAttribute="bottom" secondItem="jGa-zv-EZg" secondAttribute="bottom" id="Xhf-4D-sci"/>
-                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -42,7 +31,7 @@
                         <viewLayoutGuide key="safeArea" id="9fd-Np-CUx"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="jGa-zv-EZg" id="6iS-cA-n54"/>
+                        <outlet property="scrollView" destination="2ib-bf-ZEE" id="3uu-tQ-Zam"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qsb-1U-1bq" userLabel="First Responder" sceneMemberID="firstResponder"/>
